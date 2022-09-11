@@ -8,6 +8,7 @@ print("Notes:")
 print("-"*35)
 print("Halo Dunia")
 print("ini adalah skrip Bash pertamaku di Linux")
+print("-"*35)
 
 
 
