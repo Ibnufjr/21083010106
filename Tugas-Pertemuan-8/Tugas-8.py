@@ -11,7 +11,7 @@ def cetak(i):
        sleep(1)
     else:
        print(i+1, "Ganjil", "-punya ID proses", getpid())
-       sleep(2)
+       sleep(1)
 
 print("Sekunsial")
 # UNTUK MENDAPATKAN WAKTU SEBELUM EKSEKUSI
