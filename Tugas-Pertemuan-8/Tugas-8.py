@@ -18,7 +18,7 @@ print("Sekunsial")
 sekuensial_awal = time()
 
 # PROSES BERLANGSUNG
-for i in range(3):
+for i in range(angka):
     cetak(i)
 
 # UNTUK MENDAPATKAN WAKTU SETELAH EKSEKUSI
@@ -42,7 +42,7 @@ pool_awal = time()
 
 # PROSES BERLANGSUNG
 pool = Pool()
-pool.map(cetak, range(0,3))
+pool.map(cetak, range(angka))
 pool.close()
 
 # UNTUK MENDAPATKAN WAKTU SEBELUM EKSEKUSI
